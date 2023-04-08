@@ -1,0 +1,7 @@
+MeshFile='Mesh.planar'
+$begin 'Frequencies'
+	$begin 'FS2.freq'
+		Frequency=13500000
+		FreqDir='FS2/'
+	$end 'FS2.freq'
+$end 'Frequencies'

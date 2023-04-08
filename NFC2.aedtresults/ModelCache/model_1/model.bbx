@@ -1,0 +1,113 @@
+$beginBlackBoxData
+	Name=C2_1_2
+	ModelType=0
+	ModelName=
+	NumPorts=2
+	ResonantFreq=#inf
+	$beginPins
+		$beginC2_1_2_0
+			Seg(2.8424999030000002e-02, 4.4183000279999995e-02, 7.4152251999999997e-04, 2.8424999030000002e-02, 4.5732999720000000e-02, 7.4152251999999997e-04, -1)
+		$endC2_1_2_0
+		$beginC2_1_2_1
+			Seg(2.8724998430000002e-02, 4.5732999720000000e-02, 7.4152251999999997e-04, 2.8724998430000002e-02, 4.4183000279999995e-02, 7.4152251999999997e-04, -1)
+		$endC2_1_2_1
+	$endPins
+	$beginRLC_Circuit
+		RLCType=0
+		C_enabled=true
+	$endRLC_Circuit
+	Q3DPortName=C2_1_2_0
+	$beginSolutionData
+		ObjectType=Terminal
+		SolutionType=InterpolateLagrange
+		MajorVersion=2
+		MinorVersion=0
+		Producer=
+		Name=
+		AdaptivePass=-1
+		$beginFrequencies
+			$beginDataPoint
+				Frequency=#nan
+				DataType=None
+				$beginYMatrix
+					$beginFullMatrix
+						m=2
+						n=2
+						$beginr0
+							c(0.0000000000000000e+00, 0.0000000000000000e+00)
+							c(-0.0000000000000000e+00, -0.0000000000000000e+00)
+						$endr0
+						$beginr1
+							c(-0.0000000000000000e+00, -0.0000000000000000e+00)
+							c(0.0000000000000000e+00, 0.0000000000000000e+00)
+						$endr1
+					$endFullMatrix
+				$endYMatrix
+				EnergyError=0.0000000000000000e+00
+				IeEnergyError=0.0000000000000000e+00
+				$beginPortImpedance
+					MatrixSize=2
+					NumberOfBlocks=2
+					Block0_Size=1
+					$beginBlock0
+						$beginFullMatrix
+							m=1
+							n=1
+							$beginr0
+								c(5.0000000000000000e+01, 0.0000000000000000e+00)
+							$endr0
+						$endFullMatrix
+					$endBlock0
+					Block1_Size=1
+					$beginBlock1
+						$beginFullMatrix
+							m=1
+							n=1
+							$beginr0
+								c(5.0000000000000000e+01, 0.0000000000000000e+00)
+							$endr0
+						$endFullMatrix
+					$endBlock1
+				$endPortImpedance
+				$beginGamma
+					MatrixSize=2
+					NumberOfBlocks=2
+					Block0_Size=1
+					$beginBlock0
+						$beginFullMatrix
+							m=1
+							n=1
+							$beginr0
+								c(0.0000000000000000e+00, 0.0000000000000000e+00)
+							$endr0
+						$endFullMatrix
+					$endBlock0
+					Block1_Size=1
+					$beginBlock1
+						$beginFullMatrix
+							m=1
+							n=1
+							$beginr0
+								c(0.0000000000000000e+00, 0.0000000000000000e+00)
+							$endr0
+						$endFullMatrix
+					$endBlock1
+				$endGamma
+				$beginExtraHfssData
+				$endExtraHfssData
+			$endDataPoint
+		$endFrequencies
+		$beginPorts
+			Port(ModalEntryName=Port1:1, TerminalEntryName=Port1, PortName=Port1, Mode=0, ModeName=1, TerminalName=, ParameterName=Port1:1, MatrixIndex=0, PortType=0, IsPassive=false, PreferredImpedance=524288)
+			Port(ModalEntryName=Port2:1, TerminalEntryName=Port2, PortName=Port2, Mode=0, ModeName=1, TerminalName=, ParameterName=Port2:1, MatrixIndex=1, PortType=0, IsPassive=false, PreferredImpedance=524288)
+		$endPorts
+		$beginOtherStateSpaceModels
+		$endOtherStateSpaceModels
+		MultiTerminal=false
+		PortNames(Port1, Port2)
+		PortModes(1, 1)
+		ModalData=true
+		PreferredImpedance=Zpi
+		IeEnergyError=0.0000000000000000e+00
+	$endSolutionData
+$endBlackBoxData

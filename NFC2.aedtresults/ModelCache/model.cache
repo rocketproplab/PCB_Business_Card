@@ -1,0 +1,27 @@
+$begin 'Models'
+	$begin 'C=0.00000000000000e+00 IsParallel=false'
+		Name='model_1'
+		Key='C=0.00000000000000e+00 IsParallel=false'
+		ID=1
+	$end 'C=0.00000000000000e+00 IsParallel=false'
+	$begin 'C=2.20000000000000e-07 IsParallel=false'
+		Name='model_5'
+		Key='C=2.20000000000000e-07 IsParallel=false'
+		ID=5
+	$end 'C=2.20000000000000e-07 IsParallel=false'
+	$begin 'R=0.00000000000000e+00 IsParallel=false'
+		Name='model_2'
+		Key='R=0.00000000000000e+00 IsParallel=false'
+		ID=2
+	$end 'R=0.00000000000000e+00 IsParallel=false'
+	$begin 'R=4.70000000000000e+03 IsParallel=false'
+		Name='model_3'
+		Key='R=4.70000000000000e+03 IsParallel=false'
+		ID=3
+	$end 'R=4.70000000000000e+03 IsParallel=false'
+	$begin 'R=7.50000000000000e+01 IsParallel=false'
+		Name='model_4'
+		Key='R=7.50000000000000e+01 IsParallel=false'
+		ID=4
+	$end 'R=7.50000000000000e+01 IsParallel=false'
+$end 'Models'

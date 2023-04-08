@@ -1,0 +1,339 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000009, day=000000000021, hour=000000000015, min=000000000034, sec=000000000024)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000023444, lin=000000000313, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='HFSS 3D Layout Design'
+	CircuitName='main'
+	VersionID=8
+	PostProcess=false
+	LossLess=false
+	NextUniqueID=18
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=15)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock5'
+	SimSetupID=10
+	SimSetupName='HFSS Setup 1'
+	VersionID=0
+$end 'SolutionBlock5'
+$begin 'SolutionBlock7'
+	VariationDataID=-1
+	Folder='DV15_S12_V0'
+	AdaptPass=5
+	$begin 'GapPortDeembed'
+		$begin 'Data'
+		$end 'Data'
+		Deembed()
+	$end 'GapPortDeembed'
+	$begin 'ThermalData'
+		HasValidThermalData=false
+		HasValidAppliedFeedback=false
+	$end 'ThermalData'
+$end 'SolutionBlock7'
+$begin 'SolutionBlock8'
+	ConvSetupName='pl25d'
+	IsConverged=true
+	MaxPasses='Auto'
+	MinPasses='Auto'
+	ConvTarget='Auto'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(dn=1, pn=1, t=19051)
+	c(dn=0.11739048889156, pn=2, t=27897)
+	c(dn=0.03429508049051017, pn=3, t=33905)
+	c(dn=0.02129273733485476, pn=4, t=45293)
+	c(dn=0.008836442332931526, pn=5, t=54445)
+$end 'SolutionBlock8'
+$begin 'SolutionBlock4'
+	SolutionName='Adaptive Pass'
+	SolutionID=12
+	V=0
+	$begin 'States'
+		F(VID=15, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(13500000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	AdaptivePass=10
+	Currents=false
+	RadiationCurrents=false
+	SolveFields=false
+$end 'SolutionBlock4'
+$begin 'SolutionBlock9'
+	VariationDataID=-1
+	Folder='DV15_S11_V0'
+	AdaptPass=5
+	$begin 'GapPortDeembed'
+		$begin 'Data'
+		$end 'Data'
+		Deembed()
+	$end 'GapPortDeembed'
+	$begin 'SolverUsage'
+		Data(13500000, 'SolverUsage_FS1.txt')
+	$end 'SolverUsage'
+	$begin 'ThermalData'
+		HasValidThermalData=false
+		HasValidAppliedFeedback=false
+	$end 'ThermalData'
+$end 'SolutionBlock9'
+$begin 'SolutionBlock3'
+	SolutionName='Last Adaptive'
+	SolutionID=11
+	V=0
+	$begin 'States'
+		F(VID=15, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(13500000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	AdaptivePass=10
+	Currents=false
+	RadiationCurrents=false
+	SolveFields=false
+$end 'SolutionBlock3'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=10, Instance=\'\', Solution=-2, VersionID=0)'='SolutionBlock6'
+	'SolutionKey(SimSetup=10, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock8'
+	'SolutionKey(SimSetup=10, Instance=\'\', Solution=11, VersionID=0)'='SolutionBlock9'
+	'SolutionKey(SimSetup=10, Instance=\'\', Solution=12, VersionID=0)'='SolutionBlock7'
+	'SolutionKey(SimSetup=10, Instance=\'\', Solution=14, VersionID=0)'='SolutionBlock10'
+	'SolutionKey(SimSetup=10, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=10, Instance=\'SolutionDefinition\', Solution=11, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=10, Instance=\'SolutionDefinition\', Solution=12, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=10, Instance=\'SolutionDefinition\', Solution=14, VersionID=0)'='SolutionBlock2'
+$end 'BlockMapName'
+$begin 'SolutionBlock10'
+	VariationDataID=-1
+	Folder='DV15_S14_V0'
+	AdaptPass=0
+	$begin 'GapPortDeembed'
+		$begin 'Data'
+		$end 'Data'
+		Deembed()
+	$end 'GapPortDeembed'
+	$begin 'SolverUsage'
+		Data(10000000, 'SolverUsage_FS2.txt')
+		Data(10875000, 'SolverUsage_FS9.txt')
+		Data(11750000, 'SolverUsage_FS4.txt')
+		Data(12625000, 'SolverUsage_FS8.txt')
+		Data(13500000, 'SolverUsage_FS1.txt')
+		Data(14375000, 'SolverUsage_FS7.txt')
+		Data(15250000, 'SolverUsage_FS5.txt')
+		Data(16125000, 'SolverUsage_FS6.txt')
+		Data(17000000, 'SolverUsage_FS3.txt')
+	$end 'SolverUsage'
+	$begin 'ThermalData'
+		HasValidThermalData=false
+		HasValidAppliedFeedback=false
+	$end 'ThermalData'
+	Incomplete=false
+$end 'SolutionBlock10'
+$begin 'SolutionBlock2'
+	SolutionName='Sweep'
+	SolutionID=14
+	V=0
+	$begin 'States'
+		F(VID=15, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(10000000, 10014000, 10028000, 10042000, 10056000, 10070000, 10084000, 10098000, 10112000, 10126000, 10140000, 10154000, 10168000, 10182000, 10196000, 10210000, 10224000, 10238000, 10252000, 10266000, 10280000, 10294000, 10308000, 10322000, 10336000, 10350000, 10364000, 10378000, 10392000, 10406000, 10420000, 10434000, 10448000, 10462000, 10476000, 10490000, 10504000, 10518000, 10532000, 10546000, 10560000, 10574000, 10588000, 10602000, 10616000, 10630000, 10644000, 10658000, 10672000, 10686000, 10700000, 10714000, 10728000, 10742000, 10756000, 10770000, 10784000, 10798000, 10812000, 10826000, 10840000, 10854000, 10868000, 10882000, 10896000, 10910000, 10924000, 10938000, 10952000, 10966000, 10980000, 10994000, 11008000, 11022000, 11036000, 11050000, 11064000, 11078000, 11092000, 11106000, 11120000, 11134000, 11148000, 11162000, 11176000, 11190000, 11204000, 11218000, 11232000, 11246000, 11260000, 11274000, 11288000, 11302000, 11316000, 11330000, 11344000, 11358000, 11372000, 11386000, 11400000, 11414000, 11428000, 11442000, 11456000, 11470000, 11484000, 11498000, 11512000, 11526000, 11540000, 11554000, 11568000, 11582000, 11596000, 11610000, 11624000, 11638000, 11652000, 11666000, 11680000, 11694000, 11708000, 11722000, 11736000, 11750000, 11764000, 11778000, 11792000, 11806000, 11820000, 11834000, 11848000, 11862000, 11876000, 11890000, 11904000, 11918000, 11932000, 11946000, 11960000, 11974000, 11988000, 12002000, 12016000, 12030000, 12044000, 12058000, 12072000, 12086000, 12100000, 12114000, 12128000, 12142000, 12156000, 12170000, 12184000, 12198000, 12212000, 12226000, 12240000, 12254000, 12268000, 12282000, 12296000, 12310000, 12324000, 12338000, 12352000, 12366000, 12380000, 12394000, 12408000, 12422000, 12436000, 12450000, 12464000, 12478000, 12492000, 12506000, 12520000, 12534000, 12548000, 12562000, 12576000, 12590000, 12604000, 12618000, 12632000, 12646000, 12660000, 12674000, 12688000, 12702000, 12716000, 12730000, 12744000, 12758000, 12772000, 12786000, 12800000, 12814000, 12828000, 12842000, 12856000, 12870000, 12884000, 12898000, 12912000, 12926000, 12940000, 12954000, 12968000, 12982000, 12996000, 13010000, 13024000, 13038000, 13052000, 13066000, 13080000, 13094000, 13108000, 13122000, 13136000, 13150000, 13164000, 13178000, 13192000, 13206000, 13220000, 13234000, 13248000, 13262000, 13276000, 13290000, 13304000, 13318000, 13332000, 13346000, 13360000, 13374000, 13388000, 13402000, 13416000, 13430000, 13444000, 13458000, 13472000, 13486000, 13500000, 13514000, 13528000, 13542000, 13556000, 13570000, 13584000, 13598000, 13612000, 13626000, 13640000, 13654000, 13668000, 13682000, 13696000, 13710000, 13724000, 13738000, 13752000, 13766000, 13780000, 13794000, 13808000, 13822000, 13836000, 13850000, 13864000, 13878000, 13892000, 13906000, 13920000, 13934000, 13948000, 13962000, 13976000, 13990000, 14004000, 14018000, 14032000, 14046000, 14060000, 14074000, 14088000, 14102000, 14116000, 14130000, 14144000, 14158000, 14172000, 14186000, 14200000, 14214000, 14228000, 14242000, 14256000, 14270000, 14284000, 14298000, 14312000, 14326000, 14340000, 14354000, 14368000, 14382000, 14396000, 14410000, 14424000, 14438000, 14452000, 14466000, 14480000, 14494000, 14508000, 14522000, 14536000, 14550000, 14564000, 14578000, 14592000, 14606000, 14620000, 14634000, 14648000, 14662000, 14676000, 14690000, 14704000, 14718000, 14732000, 14746000, 14760000, 14774000, 14788000, 14802000, 14816000, 14830000, 14844000, 14858000, 14872000, 14886000, 14900000, 14914000, 14928000, 14942000, 14956000, 14970000, 14984000, 14998000, 15012000, 15026000, 15040000, 15054000, 15068000, 15082000, 15096000, 15110000, 15124000, 15138000, 15152000, 15166000, 15180000, 15194000, 15208000, 15222000, 15236000, 15250000, 15264000, 15278000, 15292000, 15306000, 15320000, 15334000, 15348000, 15362000, 15376000, 15390000, 15404000, 15418000, 15432000, 15446000, 15460000, 15474000, 15488000, 15502000, 15516000, 15530000, 15544000, 15558000, 15572000, 15586000, 15600000, 15614000, 15628000, 15642000, 15656000, 15670000, 15684000, 15698000, 15712000, 15726000, 15740000, 15754000, 15768000, 15782000, 15796000, 15810000, 15824000, 15838000, 15852000, 15866000, 15880000, 15894000, 15908000, 15922000, 15936000, 15950000, 15964000, 15978000, 15992000, 16006000, 16020000, 16034000, 16048000, 16062000, 16076000, 16090000, 16104000, 16118000, 16132000, 16146000, 16160000, 16174000, 16188000, 16202000, 16216000, 16230000, 16244000, 16258000, 16272000, 16286000, 16300000, 16314000, 16328000, 16342000, 16356000, 16370000, 16384000, 16398000, 16412000, 16426000, 16440000, 16454000, 16468000, 16482000, 16496000, 16510000, 16524000, 16538000, 16552000, 16566000, 16580000, 16594000, 16608000, 16622000, 16636000, 16650000, 16664000, 16678000, 16692000, 16706000, 16720000, 16734000, 16748000, 16762000, 16776000, 16790000, 16804000, 16818000, 16832000, 16846000, 16860000, 16874000, 16888000, 16902000, 16916000, 16930000, 16944000, 16958000, 16972000, 16986000, 17000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	AdaptivePass=-1
+	Currents=false
+	RadiationCurrents=false
+	SolveFields=false
+$end 'SolutionBlock2'
+$begin 'SolutionBlock6'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  09/21/2022 15:24:37; Host: DESKTOP-883OPHJ; Processor: 12; OS: NT 10.0; HFSS 2020.2.0'
+		TotalInfo='Time:  09/21/2022 15:28:37; Status: Normal Completion'
+		DisableTotalTimes=true
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\AnsysEM20.2\\Win64\\ENSCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'HPC Enabled', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Allow off core: True', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Using automatic settings', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Machines:', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'DESKTOP-883OPHJ [15.9 GB]: RAM Limit: 90.000000%, 4 cores', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solution Basis Order: 1', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Initial Meshing', 0, 0, 0, 0, 0, 'Time:  09/21/2022 15:24:37', false, true)
+		ProfileTask('  Mesh Phi', 4, 0, 4, 0, 92880, '18060 tetrahedra', true, true)
+		ProfileTask('  Mesh (MRL based)', 4, 0, 4, 0, 99128, '24087 tetrahedra', true, true)
+		ProfileTask('  Mesh (lambda based)', 0, 0, 0, 0, 50020, '24106 tetrahedra', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Initial Meshing', 0, 0, 0, 0, 0, 'Elapsed time: 00:00:16', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Meshing', 0, 0, 0, 0, 0, 'Time:  09/21/2022 15:24:49', false, true)
+		ProfileTask('Adaptive Pass 1', 0, 0, 0, 0, 0, 'Adaptive Meshing', false, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Meshing Frequency: 13.5MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 0, 0, 0, 0, 67828, 'Disk = 0 Bytes, 19051 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 0, 0, 2, 0, 264872, 'Disk = 0 Bytes, 19051 tetrahedra ', true, true)
+		ProfileTask('Solver DCS4', 3, 0, 10, 0, 869564, 'Disk = 695 Bytes, matrix size 135286 , matrix bandwidth  20.7 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 1, 0, 869564, 'Disk = 2.19 MBytes, 1 excitations ', true, true)
+		ProfileTask('Data Transfer', 0, 0, 0, 0, 71384, 'Adaptive Pass 1', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 2', 0, 0, 0, 0, 0, 'Adaptive Meshing', false, true)
+		ProfileTask('  Mesh (volume, adaptive)', 2, 0, 2, 0, 62352, '33634 tetrahedra', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Meshing Frequency: 13.5MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 0, 0, 0, 0, 82192, 'Disk = 0 Bytes, 27897 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 1, 0, 3, 0, 366824, 'Disk = 0 Bytes, 27897 tetrahedra ', true, true)
+		ProfileTask('Solver DCS4', 6, 0, 22, 0, 1544612, 'Disk = 0 Bytes, matrix size 193560 , matrix bandwidth  21.0 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 1, 0, 1544612, 'Disk = 1.14 MBytes, 1 excitations ', true, true)
+		ProfileTask('Data Transfer', 0, 0, 0, 0, 72536, 'Adaptive Pass 2', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 3', 0, 0, 0, 0, 0, 'Adaptive Meshing', false, true)
+		ProfileTask('  Mesh (volume, adaptive)', 2, 0, 2, 0, 67856, '40081 tetrahedra', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Meshing Frequency: 13.5MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 0, 0, 0, 0, 92560, 'Disk = 0 Bytes, 33905 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 1, 0, 4, 0, 436164, 'Disk = 0 Bytes, 33905 tetrahedra ', true, true)
+		ProfileTask('Solver DCS4', 9, 0, 32, 0, 2039488, 'Disk = 0 Bytes, matrix size 232994 , matrix bandwidth  21.1 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 1, 0, 2039488, 'Disk = 908 KBytes, 1 excitations ', true, true)
+		ProfileTask('Data Transfer', 0, 0, 0, 0, 72644, 'Adaptive Pass 3', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 4', 0, 0, 0, 0, 0, 'Adaptive Meshing', false, true)
+		ProfileTask('  Mesh (volume, adaptive)', 3, 0, 3, 0, 80000, '52130 tetrahedra', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Meshing Frequency: 13.5MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 109888, 'Disk = 0 Bytes, 45293 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 1, 0, 5, 0, 565000, 'Disk = 0 Bytes, 45293 tetrahedra ', true, true)
+		ProfileTask('Solver DCS4', 15, 0, 51, 0, 2990868, 'Disk = 0 Bytes, matrix size 307384 , matrix bandwidth  21.3 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 1, 0, 2990868, 'Disk = 1.54 MBytes, 1 excitations ', true, true)
+		ProfileTask('Data Transfer', 0, 0, 0, 0, 72436, 'Adaptive Pass 4', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 5', 0, 0, 0, 0, 0, 'Adaptive Meshing', false, true)
+		ProfileTask('  Mesh (volume, adaptive)', 3, 0, 3, 0, 87320, '61890 tetrahedra', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Meshing Frequency: 13.5MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 124360, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 2, 0, 6, 0, 671224, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS4', 19, 0, 65, 0, 3637584, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 2, 0, 3637584, 'Disk = 1.37 MBytes, 1 excitations ', true, true)
+		ProfileTask('Data Transfer', 0, 0, 0, 0, 72172, 'Adaptive Pass 5', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Adaptive Passes converged', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Meshing', 0, 0, 0, 0, 0, 'Elapsed time: 00:01:27', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency Sweep', 0, 0, 0, 0, 0, 'Time:  09/21/2022 15:26:17', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution: Sweep', 0, 0, 0, 0, 0, 'Interpolating HFSS Frequency Sweep, Solving Distributed - up to 4 frequencies in parallel', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'From 10MHz to 17MHz, 501 Frequencies', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Using automatic algorithm to locate minimum frequency for the sweep.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Distributed Solve Group #1; Automatic determination of minimum frequency', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solving with MPI (Intel MPI)', false, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 10MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 135540, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 4, 0, 4, 0, 310688, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS1', 61, 0, 61, 0, 1671504, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 1671504, 'Disk = 0 Bytes, 1 excitations ', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 17MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 136340, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 4, 0, 4, 0, 310352, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS1', 61, 0, 61, 0, 1672572, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 1672572, 'Disk = 0 Bytes, 1 excitations ', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 11.75MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 135816, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 4, 0, 4, 0, 309584, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS1', 61, 0, 61, 0, 1673664, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 1673664, 'Disk = 0 Bytes, 1 excitations ', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 15.25MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 134432, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 4, 0, 4, 0, 307960, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS1', 62, 0, 61, 0, 1669836, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 1669836, 'Disk = 0 Bytes, 1 excitations ', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Frequency: 13.5MHz has already been solved', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Basis Element # 1, Frequency: 17MHz; Additional basis points are needed before the interpolation error can be computed.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Basis Element # 2, Frequency: 10MHz; Additional basis points are needed before the interpolation error can be computed.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Basis Element # 3, Frequency: 15.25MHz; S Matrix Error =   2.933%', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Basis Element # 4, Frequency: 13.5MHz; S Matrix Error =   6.635%', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Basis Element # 5, Frequency: 11.75MHz; S Matrix Error =   6.643%', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'HPC Enabled', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Distributed Solve Group #2', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solving with MPI (Intel MPI)', false, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 14.375MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 136144, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 4, 0, 4, 0, 312000, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS1', 61, 0, 61, 0, 1672852, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 1672852, 'Disk = 0 Bytes, 1 excitations ', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 12.625MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 135852, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 4, 0, 4, 0, 308872, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS1', 61, 0, 61, 0, 1672300, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 1672300, 'Disk = 0 Bytes, 1 excitations ', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 16.125MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 135576, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 4, 0, 4, 0, 309556, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS1', 62, 0, 62, 0, 1672672, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 1672672, 'Disk = 0 Bytes, 1 excitations ', true, true)
+		ProfileTask(' ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 10.875MHz on DESKTOP-883OPHJ', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Setup ', 1, 0, 1, 0, 134340, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Matrix Assembly', 4, 0, 4, 0, 307568, 'Disk = 0 Bytes, 54445 tetrahedra ', true, true)
+		ProfileTask('Solver DCS1', 62, 0, 62, 0, 1670484, 'Disk = 0 Bytes, matrix size 367246 , matrix bandwidth  21.4 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 1670484, 'Disk = 0 Bytes, 1 excitations ', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Basis Element # 6, Frequency: 16.125MHz; Scattering matrix quantities converged; Passive within tolerance', false, true)
+		ProfileTask('Data Transfer', 0, 0, 0, 0, 74500, 'Frequency Group #2; Interpolating frequency sweep', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Interpolating sweep converged and is passive', false, true)
+		ProfileTask('Distributed Interpolating Frequency Sweep: Sweep', 0, 0, 0, 0, 0, 'HFSS: Elapsed Time: 00:02:19 (Interpolating sweep)', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency Sweep', 0, 0, 0, 0, 0, 'Elapsed time: 00:02:19', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Simulation Summary:', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Initial Meshing', 0, 0, 0, 0, 0, 'Elapsed time: 00:00:16, total memory: 0.09454 GB', false, true)
+		ProfileTask('Adaptive Meshing', 0, 0, 0, 0, 0, 'Elapsed time: 00:01:27, total memory: 3.469 GB', false, true)
+		ProfileTask('Frequency Sweep', 0, 0, 0, 0, 0, 'Elapsed time: 00:02:19, total memory: 6.378 GB', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed Time: 00:04:04 , 3D Layout ComEngine Memory :   82.5 MB', false, true)
+	$end 'ProfileGroup'
+$end 'SolutionBlock6'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock7(pos=725, lin=18, lvl=0)
+		SolutionBlock8(pos=1018, lin=32, lvl=0)
+		SolutionBlock9(pos=1761, lin=64, lvl=0)
+		BlockMapName(pos=2486, lin=99, lvl=0)
+		SolutionBlock6(pos=9458, lin=155, lvl=0)
+		SolutionBlock10(pos=3401, lin=111, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock2(pos=4116, lin=137, lvl=0)
+		SolutionBlock3(pos=2136, lin=81, lvl=0)
+		SolutionBlock4(pos=1411, lin=46, lvl=0)
+		SolutionBlock5(pos=622, lin=13, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=23444, lin=313, lvl=0)
+	$end '$index$'
+$end '$index$'

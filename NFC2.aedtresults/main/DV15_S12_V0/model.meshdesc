@@ -1,0 +1,689 @@
+$begin 'Header'
+	Version=16
+$end 'Header'
+$begin 'MeshBodies'
+	$begin 'Bodies'
+		$begin 'MeshBody'
+			Id=77
+			Nam='airbox'
+			Mat='air'
+			Diel=true
+			Type='Airbox'
+			BottomFaceID=1170
+			TopFaceID=1171
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=7
+			Nam='Bottom_Layer'
+			Mat='copper'
+			DesNam='Bottom Layer'
+			Layer='Bottom Layer'
+			Priority=1
+			Thickness=3.3124167150011764e-05
+			Net='3V2_VOUT'
+			OrigNet='3V2_VOUT'
+			BottomFaceID=175
+			TopFaceID=171
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=2
+			Nam='Bottom_Layer#L1'
+			Mat='copper'
+			DesNam='Bottom Layer'
+			Layer='Bottom Layer'
+			Priority=1
+			Thickness=3.3111699945911529e-05
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=98
+			TopFaceID=95
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=6
+			Nam='Bottom_Layer#L2'
+			Mat='copper'
+			DesNam='Bottom Layer'
+			Layer='Bottom Layer'
+			Priority=1
+			Thickness=3.3111699945911515e-05
+			Net='3V2_VOUT'
+			OrigNet='3V2_VOUT'
+			BottomFaceID=160
+			TopFaceID=157
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=5
+			Nam='Bottom_Layer#L3'
+			Mat='copper'
+			DesNam='Bottom Layer'
+			Layer='Bottom Layer'
+			Priority=1
+			Thickness=3.0681458049528841e-05
+			Net='NFC_ANT'
+			OrigNet='NFC_ANT'
+			BottomFaceID=140
+			TopFaceID=137
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=3
+			Nam='Bottom_Layer#L4'
+			Mat='copper'
+			DesNam='Bottom Layer'
+			Layer='Bottom Layer'
+			Priority=1
+			Thickness=3.3111699945911488e-05
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=111
+			TopFaceID=109
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=4
+			Nam='Bottom_Layer#L5'
+			Mat='copper'
+			DesNam='Bottom Layer'
+			Layer='Bottom Layer'
+			Priority=1
+			Thickness=3.0631305552375697e-05
+			Net='NFC_ANT'
+			OrigNet='NFC_ANT'
+			BottomFaceID=126
+			TopFaceID=123
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=1
+			Nam='Bottom_Layer#L6'
+			Mat='copper'
+			DesNam='Bottom Layer'
+			Layer='Bottom Layer'
+			Priority=1
+			Thickness=3.3123355657156227e-05
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=81
+			TopFaceID=78
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=8
+			Nam='Bottom_Layer#t=fill'
+			Mat='FR4_epoxy'
+			DesNam='Bottom Layer#t=fill'
+			Layer='Bottom Layer#t=fill'
+			Diel=true
+			Thickness=3.5001200000000000e-05
+			SolveInside=true
+			BottomFaceID=189
+			TopFaceID=188
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=9
+			Nam='Bottom_Solder'
+			Mat='SolderMask'
+			DesNam='Bottom Solder'
+			Layer='Bottom Solder'
+			Diel=true
+			Thickness=-1.0000000000000000e+00
+			BottomFaceID=195
+			TopFaceID=194
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=10
+			Nam='Dielectric_1'
+			Mat='FR4_epoxy'
+			DesNam='Dielectric 1'
+			Layer='Dielectric 1'
+			Diel=true
+			Thickness=-1.0000000000000000e+00
+			BottomFaceID=201
+			TopFaceID=200
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=11
+			Nam='Dielectric_2'
+			Mat='FR4_epoxy'
+			DesNam='Dielectric 2'
+			Layer='Dielectric 2'
+			Diel=true
+			Thickness=-1.0000000000000000e+00
+			BottomFaceID=207
+			TopFaceID=206
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=12
+			Nam='Dielectric_3'
+			Mat='FR4_epoxy'
+			DesNam='Dielectric 3'
+			Layer='Dielectric 3'
+			Diel=true
+			Thickness=-1.0000000000000000e+00
+			BottomFaceID=213
+			TopFaceID=212
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=13
+			Nam='Layer_1'
+			Mat='copper'
+			DesNam='Layer 1'
+			Layer='Layer 1'
+			Priority=1
+			Thickness=1.4369104891182590e-05
+			Net='NFC_ANT'
+			OrigNet='NFC_ANT'
+			BottomFaceID=219
+			TopFaceID=218
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=14
+			Nam='Layer_1#t=fill'
+			Mat='FR4_epoxy'
+			DesNam='Layer 1#t=fill'
+			Layer='Layer 1#t=fill'
+			Diel=true
+			Thickness=1.5199360000000001e-05
+			SolveInside=true
+			BottomFaceID=249
+			TopFaceID=248
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=16
+			Nam='Layer_2'
+			Mat='copper'
+			DesNam='Layer 2'
+			Layer='Layer 2'
+			Priority=1
+			Thickness=1.5135193834584109e-05
+			Net='3V2_VOUT'
+			OrigNet='3V2_VOUT'
+			BottomFaceID=385
+			TopFaceID=382
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=15
+			Nam='Layer_2#L1'
+			Mat='copper'
+			DesNam='Layer 2'
+			Layer='Layer 2'
+			Priority=1
+			Thickness=1.5160948058349031e-05
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=257
+			TopFaceID=254
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=17
+			Nam='Layer_2#t=fill'
+			Mat='FR4_epoxy'
+			DesNam='Layer 2#t=fill'
+			Layer='Layer 2#t=fill'
+			Diel=true
+			Thickness=1.5199360000000001e-05
+			SolveInside=true
+			BottomFaceID=471
+			TopFaceID=470
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=39
+			Nam='Top_Layer'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.2205066801774122e-05
+			Net='SCL'
+			OrigNet='SCL'
+			BottomFaceID=877
+			TopFaceID=885
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=55
+			Nam='Top_Layer#L1'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.2184925751121786e-05
+			Net='GND'
+			PowerGround=true
+			OrigNet='GND'
+			BottomFaceID=1011
+			TopFaceID=1008
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=37
+			Nam='Top_Layer#L10'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.2188996285664920e-05
+			Net='FD'
+			OrigNet='FD'
+			BottomFaceID=850
+			TopFaceID=867
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=51
+			Nam='Top_Layer#L11'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.1600425842641683e-05
+			Net='NetPWR_1'
+			OrigNet='NetPWR_1'
+			BottomFaceID=993
+			TopFaceID=1000
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=25
+			Nam='Top_Layer#L12'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.3127247895628365e-05
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=695
+			TopFaceID=688
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=47
+			Nam='Top_Layer#L13'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.3896667364281522e-05
+			Net='3V2_VOUT'
+			OrigNet='3V2_VOUT'
+			BottomFaceID=950
+			TopFaceID=986
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=18
+			Nam='Top_Layer#L14'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.4036791298184879e-05
+			BottomFaceID=479
+			TopFaceID=476
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=34
+			Nam='Top_Layer#L15'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.3767735911461879e-05
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=827
+			TopFaceID=845
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=24
+			Nam='Top_Layer#L16'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.2862289903440051e-05
+			Net='GND'
+			PowerGround=true
+			OrigNet='GND'
+			BottomFaceID=684
+			TopFaceID=682
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=19
+			Nam='Top_Layer#L17'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.4036791298184872e-05
+			BottomFaceID=486
+			TopFaceID=482
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=66
+			Nam='Top_Layer#L18'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.2962651039067926e-05
+			Net='GND'
+			PowerGround=true
+			OrigNet='GND'
+			BottomFaceID=1135
+			TopFaceID=1130
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=45
+			Nam='Top_Layer#L19'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.1751646653745479e-05
+			Net='GND'
+			PowerGround=true
+			OrigNet='GND'
+			BottomFaceID=940
+			TopFaceID=938
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=20
+			Nam='Top_Layer#L2'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.0801183692049011e-05
+			Net='NFC_ANT'
+			OrigNet='NFC_ANT'
+			BottomFaceID=491
+			TopFaceID=534
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=29
+			Nam='Top_Layer#L3'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.1834001508757719e-05
+			Net='FD_DBG'
+			OrigNet='FD_DBG'
+			BottomFaceID=768
+			TopFaceID=775
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=41
+			Nam='Top_Layer#L4'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.3894896921853165e-05
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=904
+			TopFaceID=936
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=31
+			Nam='Top_Layer#L5'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.2139532713064516e-05
+			Net='SCL_DBG'
+			OrigNet='SCL_DBG'
+			BottomFaceID=783
+			TopFaceID=806
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=63
+			Nam='Top_Layer#L6'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.3257816370603310e-05
+			Net='3V2_VOUT'
+			OrigNet='3V2_VOUT'
+			BottomFaceID=1081
+			TopFaceID=1093
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=61
+			Nam='Top_Layer#L7'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.2609992032438752e-05
+			Net='SDA'
+			OrigNet='SDA'
+			BottomFaceID=1064
+			TopFaceID=1075
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=26
+			Nam='Top_Layer#L8'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.1829522747137592e-05
+			Net='SDA_DBG'
+			OrigNet='SDA_DBG'
+			BottomFaceID=723
+			TopFaceID=752
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=56
+			Nam='Top_Layer#L9'
+			Mat='copper'
+			DesNam='Top Layer'
+			Layer='Top Layer'
+			Priority=1
+			Thickness=3.2395412679451644e-05
+			Net='NFC_ANT'
+			OrigNet='NFC_ANT'
+			BottomFaceID=1018
+			TopFaceID=1056
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=68
+			Nam='Top_Layer#t=fill'
+			Mat='FR4_epoxy'
+			DesNam='Top Layer#t=fill'
+			Layer='Top Layer#t=fill'
+			Diel=true
+			Thickness=3.5001200000000000e-05
+			SolveInside=true
+			BottomFaceID=1137
+			TopFaceID=1136
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=65
+			Nam='Top_Layer_C1_1_2_0_supporting_mesh'
+			Mat='copper'
+			DesNam='Top Layer_C1_1_2_0_supporting_mesh'
+			Layer='Top Layer'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-05
+			Net='SDA'
+			OrigNet='SDA'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=60
+			Nam='Top_Layer_Port1#ref_supporting_mesh'
+			Mat='copper'
+			DesNam='Top Layer_Port1#ref_supporting_mesh'
+			Layer='Top Layer'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-05
+			Net='SDA'
+			OrigNet='SDA'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=54
+			Nam='Top_Layer_Port1_supporting_mesh'
+			Mat='copper'
+			DesNam='Top Layer_Port1_supporting_mesh'
+			Layer='Top Layer'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-05
+			Net='SDA'
+			OrigNet='SDA'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=53
+			Nam='Top_Layer_R1_1_2_0_supporting_mesh'
+			Mat='copper'
+			DesNam='Top Layer_R1_1_2_0_supporting_mesh'
+			Layer='Top Layer'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-05
+			Net='SDA'
+			OrigNet='SDA'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=50
+			Nam='Top_Layer_R5_1_2_0_supporting_mesh'
+			Mat='copper'
+			DesNam='Top Layer_R5_1_2_0_supporting_mesh'
+			Layer='Top Layer'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-05
+			Net='SDA'
+			OrigNet='SDA'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=46
+			Nam='Top_Layer_R5_1_2_1_supporting_mesh'
+			Mat='copper'
+			DesNam='Top Layer_R5_1_2_1_supporting_mesh'
+			Layer='Top Layer'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-05
+			Net='SDA'
+			OrigNet='SDA'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=36
+			Nam='Top_Layer_R6_1_2_0_supporting_mesh'
+			Mat='copper'
+			DesNam='Top Layer_R6_1_2_0_supporting_mesh'
+			Layer='Top Layer'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-05
+			Net='SDA'
+			OrigNet='SDA'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=44
+			Nam='Top_Layer_R7_1_2_0_supporting_mesh'
+			Mat='copper'
+			DesNam='Top Layer_R7_1_2_0_supporting_mesh'
+			Layer='Top Layer'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-05
+			Net='SDA'
+			OrigNet='SDA'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=69
+			Nam='Top_Solder'
+			Mat='SolderMask'
+			DesNam='Top Solder'
+			Layer='Top Solder'
+			Diel=true
+			Thickness=-1.0000000000000000e+00
+			BottomFaceID=1143
+			TopFaceID=1142
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=73
+			Nam='Via1'
+			Mat='copper'
+			Priority=1
+			Thickness=1.2700000000000374e-04
+			Subtype=2
+			Net='NFC_ANT'
+			OrigNet='NFC_ANT'
+			BottomFaceID=1158
+			TopFaceID=1159
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=74
+			Nam='Via2'
+			Mat='copper'
+			Priority=1
+			Thickness=1.2700000000000374e-04
+			Subtype=2
+			Net='NFC_ANT'
+			OrigNet='NFC_ANT'
+			BottomFaceID=1161
+			TopFaceID=1162
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=76
+			Nam='Via3'
+			Mat='copper'
+			Priority=1
+			Thickness=3.5559999999999374e-04
+			Subtype=2
+			Net='3V2_VOUT'
+			OrigNet='3V2_VOUT'
+			BottomFaceID=1167
+			TopFaceID=1168
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=75
+			Nam='Via4'
+			Mat='copper'
+			Priority=1
+			Thickness=3.5559999999999867e-04
+			Subtype=2
+			Net='3V2_VOUT'
+			OrigNet='3V2_VOUT'
+			BottomFaceID=1164
+			TopFaceID=1165
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=70
+			Nam='Via5'
+			Mat='copper'
+			Priority=1
+			Thickness=3.5559999999999623e-04
+			Subtype=2
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=1149
+			TopFaceID=1150
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=71
+			Nam='Via6'
+			Mat='copper'
+			Priority=1
+			Thickness=3.5559999999999623e-04
+			Subtype=2
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=1152
+			TopFaceID=1153
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=72
+			Nam='Via7'
+			Mat='copper'
+			Priority=1
+			Thickness=3.5559999999999867e-04
+			Subtype=2
+			Net='3V3_EXT'
+			OrigNet='3V3_EXT'
+			BottomFaceID=1155
+			TopFaceID=1156
+		$end 'MeshBody'
+	$end 'Bodies'
+$end 'MeshBodies'
